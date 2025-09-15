@@ -1,0 +1,7 @@
+# Write a program to change the datatype of given variables?
+x=10
+print("x=",type(x))
+x=float(x)
+print("x=",type(x))
+x=str(x)
+print("x=",type(x))

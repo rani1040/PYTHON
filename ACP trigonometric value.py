@@ -1,0 +1,11 @@
+import math
+hypotenuse=int(input("Enter your hypotenuse:"))
+opposite=int(input("Enter your opposite:"))
+adjacent=int(input("Enter your adjacent:"))
+print("Your hypotenuse is",hypotenuse)
+print("Your opposite is",opposite)
+print("Your adjacent is",adjacent)
+print("Computer is printing results....................")
+print("The sin0 is ",math.floor(hypotenuse/opposite))
+print("The cos0 is ",math.floor(hypotenuse/adjacent))
+print("The tan0 is ",math.floor(adjacent/opposite))
