@@ -1,0 +1,37 @@
+import turtle
+
+# Create a screen
+screen = turtle.Screen()
+screen.bgcolor("lightblue")
+screen.title("Drawing Shapes with Turtle")
+
+# Create a turtle
+pen = turtle.Turtle()
+pen.pensize(3)
+pen.color("darkblue")
+
+# Draw a square
+for i in range(4):
+    pen.forward(100)
+    pen.right(90)
+
+# Move turtle to new position
+pen.penup()
+pen.goto(-150, 0)
+pen.pendown()
+
+# Draw a triangle
+for i in range(3):
+    pen.forward(100)
+    pen.left(120)
+
+# Move turtle to another position
+pen.penup()
+pen.goto(150, 0)
+pen.pendown()
+
+# Draw a circle
+pen.circle(50)
+
+# Finish
+turtle.done()
